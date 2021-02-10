@@ -528,3 +528,8 @@
  #promotion:hover {
   cursor: pointer;
  }
+
+ .webChoise:hover {
+   border:rgb(81, 39, 116) 5px solid;
+   border-radius: 30px 30px 30px 30px;
+ }

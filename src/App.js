@@ -22,7 +22,6 @@ import mail_20190718_dv from './images/dm/mail_20190718_dv.jpg';
 import poster4 from './images/poster/poster4.png';
 import poster3 from './images/poster/poster3.png';
 
-
 import lof_h from './images/lof/lof_h.jpg';
 import lof_amazon3 from './images/lof/lof_amazon3.jpg';
 import thumbnail_1 from './images/lof/thumbnail_1.jpg';
@@ -30,7 +29,10 @@ import thumbnail_2 from './images/lof/thumbnail_2.jpg';
 import thumbnail_3 from './images/lof/thumbnail_3.jpg';
 import collar_1 from './images/lof/collar_1.jpg';
 import collar_3 from './images/lof/collar_3.jpg';
-import collar_2 from './images/lof/collar_2.jpg';
+import profile from './images/profile.png';
+
+import adaptive_banner from './images/adaptive_banner.png';
+import responsive_banner from './images/responsive_banner.png';
 
 
 class App extends Component {
@@ -225,6 +227,8 @@ class App extends Component {
 
     return (
       <>
+
+      {/* 메인화면 */}
         <div className="hero-section">
           <div className="about-text hover-target">profile</div>
           <div className="contact-text hover-target">contact</div>
@@ -241,7 +245,7 @@ class App extends Component {
                   <p>
                     <span className="travel hover-target">Familynet <br /> Project</span>
                     <span className="wildlife hover-target">Lof Pet <br /> Project</span>
-                    <span className="nature hover-target">Re-design <br /> Website</span>
+                    <span className="nature hover-target">Website <br /> Design</span>
                   </p>
                 </div>
               </div>
@@ -249,13 +253,15 @@ class App extends Component {
           </div>
         </div>
 
+      {/* 프로필 */}
+
         <div className="about-section">
           <div className="about-close hover-target"></div>
           <div className="section-center">
             <div className="container">
               <div className="row justify-content-center">
                 <div className="col-12 text-center">
-                  <img src="/images/profile.png" alt="" />
+                  <img src={profile} alt="" />
                 </div>
                 <div className="col-lg-8 text-center mt-4">
                   <p className="profile_word">
@@ -280,6 +286,7 @@ class App extends Component {
           </div>
         </div>
 
+      {/* 연락처 */}
         <div className="contact-section">
           <div className="contact-close hover-target"></div>
           <div className="section-center">
@@ -429,27 +436,34 @@ class App extends Component {
           </div>
         </div>
 
+      {/* 웹페이지 */}
+
         <div className="nature-section">
           <div className="nature-close hover-target"></div>
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-12 text-center">
-                <h3>nature</h3>
+                <h3>Website</h3>
               </div>
               <div className="col-12 mt-3 text-center">
-                <p><span>Canon PowerShot S95</span></p>
+                <p><span>웹사이트 구축</span></p>
               </div>
-              <div className="col-12 text-center">
-                <p>
-                  focal length: 22.5mm<br />
-                  aperture: ƒ/5.6<br />
-                  exposure time: 1/1000<br />
-                  ISO: 80
-                </p>
+
+              <br />
+              <br />
+              <br />
+              <br />
+
+              <div className="col-md-6 col-lg-6">
+                <font style = {{color: "#fff"}}>반응형 웹</font>
+                <a href="#"><img className="webChoise" src={responsive_banner} alt="" /></a>
               </div>
-              <div className="col-md-6 col-lg-4">
-                <img src="http://www.ivang-design.com/svg-load/portfolio/photo-p.jpg" alt="" />
+
+              <div className="col-md-6 col-lg-6">
+                <font style = {{color: "#fff"}}>고정형 웹</font>
+                <a href="#"><img className="webChoise" src={adaptive_banner} alt="" /></a>
               </div>
+
               
             </div>
           </div>
