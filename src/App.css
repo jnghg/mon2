@@ -521,7 +521,10 @@
    color: #fff;
  }
 
+ #harness:hover,
+ #collar:hover,
  #dmBanner:hover,
+ #poster:hover,
  #promotion:hover {
   cursor: pointer;
  }
