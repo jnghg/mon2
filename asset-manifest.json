@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/mon2/static/css/main.32d29c33.chunk.css",
+    "main.js": "/mon2/static/js/main.29bcca99.chunk.js",
+    "main.js.map": "/mon2/static/js/main.29bcca99.chunk.js.map",
+    "runtime-main.js": "/mon2/static/js/runtime-main.be1da10c.js",
+    "runtime-main.js.map": "/mon2/static/js/runtime-main.be1da10c.js.map",
+    "static/css/2.150d169a.chunk.css": "/mon2/static/css/2.150d169a.chunk.css",
+    "static/js/2.3356d29c.chunk.js": "/mon2/static/js/2.3356d29c.chunk.js",
+    "static/js/2.3356d29c.chunk.js.map": "/mon2/static/js/2.3356d29c.chunk.js.map",
+    "static/js/3.6590e2cb.chunk.js": "/mon2/static/js/3.6590e2cb.chunk.js",
+    "static/js/3.6590e2cb.chunk.js.map": "/mon2/static/js/3.6590e2cb.chunk.js.map",
+    "index.html": "/mon2/index.html",
+    "static/css/2.150d169a.chunk.css.map": "/mon2/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.32d29c33.chunk.css.map": "/mon2/static/css/main.32d29c33.chunk.css.map",
+    "static/js/2.3356d29c.chunk.js.LICENSE.txt": "/mon2/static/js/2.3356d29c.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/mon2/static/media/waterFlower.331705e6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.be1da10c.js",
+    "static/css/2.150d169a.chunk.css",
+    "static/js/2.3356d29c.chunk.js",
+    "static/css/main.32d29c33.chunk.css",
+    "static/js/main.29bcca99.chunk.js"
+  ]
+}
