@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/mon2/static/css/main.32d29c33.chunk.css",
-    "main.js": "/mon2/static/js/main.29bcca99.chunk.js",
-    "main.js.map": "/mon2/static/js/main.29bcca99.chunk.js.map",
+    "main.js": "/mon2/static/js/main.6273db63.chunk.js",
+    "main.js.map": "/mon2/static/js/main.6273db63.chunk.js.map",
     "runtime-main.js": "/mon2/static/js/runtime-main.be1da10c.js",
     "runtime-main.js.map": "/mon2/static/js/runtime-main.be1da10c.js.map",
     "static/css/2.150d169a.chunk.css": "/mon2/static/css/2.150d169a.chunk.css",
@@ -14,6 +14,32 @@
     "static/css/2.150d169a.chunk.css.map": "/mon2/static/css/2.150d169a.chunk.css.map",
     "static/css/main.32d29c33.chunk.css.map": "/mon2/static/css/main.32d29c33.chunk.css.map",
     "static/js/2.3356d29c.chunk.js.LICENSE.txt": "/mon2/static/js/2.3356d29c.chunk.js.LICENSE.txt",
+    "static/media/1902_event_ac_1.9377c6a2.jpg": "/mon2/static/media/1902_event_ac_1.9377c6a2.jpg",
+    "static/media/1902_event_sew_2.db8d08d5.jpg": "/mon2/static/media/1902_event_sew_2.db8d08d5.jpg",
+    "static/media/1904_event_air_1.7a2c7446.jpg": "/mon2/static/media/1904_event_air_1.7a2c7446.jpg",
+    "static/media/1908_event_wedding.82dbbed0.jpg": "/mon2/static/media/1908_event_wedding.82dbbed0.jpg",
+    "static/media/1912_event_clothes_2.4da0eaa8.jpg": "/mon2/static/media/1912_event_clothes_2.4da0eaa8.jpg",
+    "static/media/2001_event_ac_1.0240212c.jpg": "/mon2/static/media/2001_event_ac_1.0240212c.jpg",
+    "static/media/2003_event_air_filter.0c8d0b98.jpg": "/mon2/static/media/2003_event_air_filter.0c8d0b98.jpg",
+    "static/media/2003_event_energy_2.0ba1d331.jpg": "/mon2/static/media/2003_event_energy_2.0ba1d331.jpg",
+    "static/media/2009_event_monitor.a1f3761f.jpg": "/mon2/static/media/2009_event_monitor.a1f3761f.jpg",
+    "static/media/collar_1.68f7beef.jpg": "/mon2/static/media/collar_1.68f7beef.jpg",
+    "static/media/collar_2.c2b2deb3.jpg": "/mon2/static/media/collar_2.c2b2deb3.jpg",
+    "static/media/collar_3.49bc2528.jpg": "/mon2/static/media/collar_3.49bc2528.jpg",
+    "static/media/lof_amazon3.b356c336.jpg": "/mon2/static/media/lof_amazon3.b356c336.jpg",
+    "static/media/lof_h.41abad4c.jpg": "/mon2/static/media/lof_h.41abad4c.jpg",
+    "static/media/mail_20190513_ac+clothes.a5e1b338.jpg": "/mon2/static/media/mail_20190513_ac+clothes.a5e1b338.jpg",
+    "static/media/mail_20190718_dv.2d5b6d3f.jpg": "/mon2/static/media/mail_20190718_dv.2d5b6d3f.jpg",
+    "static/media/mail_20200424_aircare_.d1d9d702.jpg": "/mon2/static/media/mail_20200424_aircare_.d1d9d702.jpg",
+    "static/media/muhan.517d83f9.jpg": "/mon2/static/media/muhan.517d83f9.jpg",
+    "static/media/notebook_banner.faf2e4e4.jpg": "/mon2/static/media/notebook_banner.faf2e4e4.jpg",
+    "static/media/phone_gal.bfffc1db.jpg": "/mon2/static/media/phone_gal.bfffc1db.jpg",
+    "static/media/poster3.3e865323.png": "/mon2/static/media/poster3.3e865323.png",
+    "static/media/poster4.b7602f9e.png": "/mon2/static/media/poster4.b7602f9e.png",
+    "static/media/re_01.91b93c9b.jpg": "/mon2/static/media/re_01.91b93c9b.jpg",
+    "static/media/thumbnail_1.00a2c4b0.jpg": "/mon2/static/media/thumbnail_1.00a2c4b0.jpg",
+    "static/media/thumbnail_2.92bda833.jpg": "/mon2/static/media/thumbnail_2.92bda833.jpg",
+    "static/media/thumbnail_3.c40c263d.jpg": "/mon2/static/media/thumbnail_3.c40c263d.jpg",
     "static/media/App.css": "/mon2/static/media/waterFlower.331705e6.png"
   },
   "entrypoints": [
@@ -21,6 +47,6 @@
     "static/css/2.150d169a.chunk.css",
     "static/js/2.3356d29c.chunk.js",
     "static/css/main.32d29c33.chunk.css",
-    "static/js/main.29bcca99.chunk.js"
+    "static/js/main.6273db63.chunk.js"
   ]
 }
