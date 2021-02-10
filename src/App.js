@@ -3,6 +3,36 @@ import './App.css';
 import $ from 'jquery';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+import phone_gal from './images/banner/pcMobile/phone_gal.jpg';
+import _1912_event_clothes_2 from './images/banner/dress/1912_event_clothes_2.jpg';
+import muhan from './images/promotion/muhan.jpg';
+import _2001_event_ac_1 from './images/banner/life/2001_event_ac_1.jpg';
+import _1908_event_wedding from './images/promotion/1908_event_wedding.jpg';
+import _2003_event_energy_2 from './images/promotion/2003_event_energy_2.jpg';
+import _2003_event_air_filter from './images/banner/life/2003_event_air_filter.jpg';
+import _2009_event_monitor from './images/banner/pcMobile/2009_event_monitor.jpg';
+import _1904_event_air_1 from './images/banner/life/1904_event_air_1.jpg';
+import _1902_event_ac_1 from './images/banner/life/1902_event_ac_1.jpg';
+import notebook_banner from './images/banner/pcMobile/notebook_banner.jpg';
+import _1902_event_sew_2 from './images/banner/dress/1902_event_sew_2.jpg';
+import re_01 from './images/banner/kitchen/re_01.jpg';
+import mail_20200424_aircare_ from './images/dm/mail_20200424_aircare_.jpg';
+import mail_20190513_ac_clothes from './images/dm/mail_20190513_ac+clothes.jpg';
+import mail_20190718_dv from './images/dm/mail_20190718_dv.jpg';
+import poster4 from './images/poster/poster4.png';
+import poster3 from './images/poster/poster3.png';
+
+
+import lof_h from './images/lof/lof_h.jpg';
+import lof_amazon3 from './images/lof/lof_amazon3.jpg';
+import thumbnail_1 from './images/lof/thumbnail_1.jpg';
+import thumbnail_2 from './images/lof/thumbnail_2.jpg';
+import thumbnail_3 from './images/lof/thumbnail_3.jpg';
+import collar_1 from './images/lof/collar_1.jpg';
+import collar_3 from './images/lof/collar_3.jpg';
+import collar_2 from './images/lof/collar_2.jpg';
+
+
 class App extends Component {
 
   componentDidMount() {
@@ -289,65 +319,65 @@ class App extends Component {
 
               {/* 프로모션 배너 */}
                 <div className="col-md-6 col-lg-10 promotion">
-                  <img src="/images/banner/pcMobile/phone_gal.jpg" alt="" />
+                  <img src={ phone_gal } alt="" />
                 </div>
                 <div className="col-md-6 col-lg-10 promotion">
-                  <img src="/images/banner/dress/1912_event_clothes_2.jpg" alt="" />
+                  <img src={ _1912_event_clothes_2 } alt="" />
                 </div>
                 <div className="col-md-6 col-lg-10 promotion">
-                  <img src="/images/promotion/muhan.jpg" alt="" />
+                  <img src={ muhan } alt="" />
                 </div>
                 <div className="col-md-6 col-lg-10 promotion">
-                  <img src="/images/banner/life/2001_event_ac_1.jpg" alt="" />
+                  <img src={ _2001_event_ac_1 } alt="" />
                 </div>
                 <div className="col-md-6 col-lg-10 promotion">
-                  <img src="/images/promotion/1908_event_wedding.jpg" alt="" />
+                  <img src={ _1908_event_wedding } alt="" />
                 </div>
                 <div className="col-md-6 col-lg-10 promotion">
-                  <img src="/images/promotion/2003_event_energy_2.jpg" alt="" />
+                  <img src={ _2003_event_energy_2 } alt="" />
                 </div>
                 <div className="col-md-6 col-lg-10 promotion">
-                  <img src="/images/banner/life/2003_event_air_filter.jpg" alt="" />
+                  <img src={ _2003_event_air_filter } alt="" />
                 </div>
                 <div className="col-md-6 col-lg-10 promotion">
-                  <img src="/images/banner/pcMobile/2009_event_monitor.jpg" alt="" />
+                  <img src={ _2009_event_monitor } alt="" />
                 </div>
                 <div className="col-md-6 col-lg-10 promotion">
-                  <img src="/images/banner/life/1904_event_air_1.jpg" alt="" />
+                  <img src={ _1904_event_air_1 } alt="" />
                 </div>
                 <div className="col-md-6 col-lg-10 promotion">
-                  <img src="/images/banner/life/1902_event_ac_1.jpg" alt="" />
+                  <img src={_1902_event_ac_1} alt="" />
                 </div>
                 <div className="col-md-6 col-lg-10 promotion">
-                  <img src="/images/banner/pcMobile/notebook_banner.jpg" alt="" />
+                  <img src={notebook_banner} alt="" />
                 </div>
                 <div className="col-md-6 col-lg-10 promotion">
-                  <img src="/images/banner/dress/1902_event_sew_2.jpg" alt="" />
+                  <img src={_1902_event_sew_2} alt="" />
                 </div>
                 <div className="col-md-6 col-lg-10 promotion">
-                  <img src="/images/banner/kitchen/re_01.jpg" alt="" />
+                  <img src={re_01} alt="" />
                 </div>
 
               {/*  DM 배너  */}
                 <div className="col-md-6 col-lg-4 dmBanner">
                   <font style = {{color: "#fff"}}>Air Care</font>
-                  <img src="/images/dm/mail_20200424_aircare_.jpg" alt="" />
+                  <img src={mail_20200424_aircare_} alt="" />
                 </div>
                 <div className="col-md-6 col-lg-4 dmBanner">
                   <font style = {{color: "#fff"}}>Living Care</font>
-                  <img src="/images/dm/mail_20190513_ac+clothes.jpg" alt="" />
+                  <img src={mail_20190513_ac_clothes} alt="" />
                 </div>
                 <div className="col-md-6 col-lg-4 dmBanner">
                   <font style = {{color: "#fff"}}>Clothing Care</font>
-                  <img src="/images/dm/mail_20190718_dv.jpg" alt="" />
+                  <img src={mail_20190718_dv} alt="" />
                 </div>
 
               {/*  Poster  */}
               <div className="col-md-6 col-lg-12 poster">
-                <img src="/images/poster/poster4.png" alt="" />
+                <img src={poster4} alt="" />
               </div>
               <div className="col-md-6 col-lg-12 poster">
-                <img src="/images/poster/poster3.png" alt="" />
+                <img src={poster3} alt="" />
               </div>
 
             </div>
@@ -376,26 +406,23 @@ class App extends Component {
 
               {/* 하네스 */}
               <div className="col-md-6 col-lg-4 harness">
-                <img src="/images/lof/lof_h.jpg" alt="" />
+                <img src={lof_h} alt="" />
               </div>
               <div className="col-md-6 col-lg-4 harness">
-                <img src="/images/lof/lof_amazon3.jpg" alt="" />
+                <img src={lof_amazon3} alt="" />
               </div>
               <div className="col-md-6 col-lg-4 harness">
-                <img src="/images/lof/thumbnail_1.jpg" alt="" />
-                <img src="/images/lof/thumbnail_2.jpg" alt="" />
-                <img src="/images/lof/thumbnail_3.jpg" alt="" />
+                <img src={thumbnail_1} alt="" />
+                <img src={thumbnail_2} alt="" />
+                <img src={thumbnail_3} alt="" />
               </div>
 
               {/* collar */}
-              <div className="col-md-6 col-lg-4 collar">
-                <img src="/images/lof/collar_1.jpg" alt="" />
+              <div className="col-md-6 col-lg-5 collar">
+                <img src={collar_1} alt="" />
               </div>
-              <div className="col-md-6 col-lg-4 collar">
-                <img src="/images/lof/collar_3.jpg" alt="" />
-              </div>
-              <div className="col-md-6 col-lg-4 collar">
-                <img src="/images/lof/collar_2.jpg" alt="" />
+              <div className="col-md-6 col-lg-5 collar">
+                <img src={collar_3} alt="" />
               </div>
 
             </div>
