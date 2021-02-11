@@ -456,12 +456,12 @@ class App extends Component {
 
               <div className="col-md-6 col-lg-6">
                 <font style = {{color: "#fff"}}>반응형 웹</font>
-                <a href="#"><img className="webChoise" src={responsive_banner} alt="" /></a>
+                <a href="https://jnghg.github.io/chanel/" target="_blank" rel="noreferrer"><img className="webChoise" src={responsive_banner} alt="" /></a>
               </div>
 
               <div className="col-md-6 col-lg-6">
                 <font style = {{color: "#fff"}}>고정형 웹</font>
-                <a href="#"><img className="webChoise" src={adaptive_banner} alt="" /></a>
+                <a href="https://jnghg.github.io/destiny/" target="_blank" rel="noreferrer"><img className="webChoise" src={adaptive_banner} alt="" /></a>
               </div>
 
               
